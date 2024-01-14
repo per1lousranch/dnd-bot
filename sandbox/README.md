@@ -1,4 +1,3 @@
-# NCSS Flask Template
+# DnD bot
 
-This is the Flask template for the NCSS web stream.
-To create a new codesandbox from this template, [click here](https://codesandbox.io/p/devbox/github/ncss/flask-template)
+Rolls dice and generates names. :3
