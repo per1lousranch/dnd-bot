@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+div.msg-container {
+    font-family: 'MedievalSharp', cursive;
+    padding: 20px;
+}
+
+.form-input {
+    width: 100px;
+}
+
+button {
+    border-radius: 20px;
+    display: block;
+    margin: 5px auto;
+    padding: 7px 13px;
+}
+
+#dnd_logo {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+#outputdice {
+    font-size: 40px;
+    overflow-wrap: break-word;
+    hyphens: manual;
+}
+
+#totaldice {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+body {
+    background-image: url("https://wallpapercave.com/wp/wp4786851.jpg");
+    background-size: cover;
+}
