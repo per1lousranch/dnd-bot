@@ -33,7 +33,7 @@ def namegen_post():
     print(f"\nIncoming message to {request.path}:")
     pprint.pprint(message, indent=2)
     end = namegen(int(message["form_data"]['nameno']))
-    ans = "Click on a button to save that name. <div class='msg-container'><ul>"
+    # ans = "Click on a button to save that name. <div class='msg-container'><ul>"
     for i in range(len(end)):
         ans += f'<button id="{end[i]}" onclick="nameSaver(\'{end[i]}\')"><li>{end[i]}</li></button>'
     ans += "</ul></div>"
